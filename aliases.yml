@@ -88,3 +88,8 @@ aliases:
     aliases:
       - delete
       - garbage
+
+  - icon:       tint
+    aliases:
+      - brops
+      - blood
