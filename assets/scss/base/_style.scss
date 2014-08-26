@@ -1,0 +1,163 @@
+html {
+  overflow-y: scroll;
+  height: 100%;
+  @include box-sizing(border-box);
+}
+
+body {
+  font-weight: normal;
+  line-height: $base-line-height;
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  background-color: $base-background-color;
+  color: $base-font-color;
+  height: 100%;
+  -webkit-text-size-adjust: none;
+}
+
+/*
+ * Inherit the box-model
+ * http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*, *:before, *:after {
+  @include box-sizing(inherit);
+}
+
+/*
+ * Best clearfix methode ever
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ * Use the bourbon mixin!
+ */
+.clearfix {
+  @include clearfix;
+}
+
+/*
+ * Basic styles
+ */
+
+header,
+footer {
+  text-align: center;
+  background-color: $color-gold;
+}
+
+header,
+footer,
+#container {
+  padding: 30px 15px;
+}
+
+header {
+
+  p {
+    margin: 0 auto;
+  }
+
+  span {
+    display: inline-block;
+    padding: 1px 8px;
+    margin: 2px 2px 0;
+    border-radius: 3px;
+    background-color: $color-tundora;
+    color: $color-white;
+
+    a {
+      color: inherit;
+    }
+  }
+}
+
+footer {
+
+  p {
+    margin: 20px 0;
+
+    &.icons {
+
+      a {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .fa {
+    font-size: 18px;
+    margin-right: 3px;
+    position: relative;
+    bottom: -1px;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.inside {
+  max-width: 1200px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.icon-list {
+
+  li {
+    padding: 2px 0;
+    width: 100%;
+    display: inline-block;
+    margin-right: -4px;
+
+    @include breakpoint(765px, min) {
+      width: 50%;
+    }
+
+    @include breakpoint(1150px, min) {
+      width: 33.3333%;
+    }
+
+    i {
+      font-size: 16px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 3px 0;
+
+      &:hover {
+        color: $color-black;
+      }
+    }
+
+    div {
+      display: inline-block;
+      font-size: 12px;
+      position: relative;
+      bottom: 1px;
+
+      span {
+        display: inherit;
+        padding: 1px 4px;
+        margin: 0 2px;
+        border-radius: 3px;
+        background-color: $color-alto;
+        color: $color-black;
+      }
+
+      &.unicode {
+
+        span {
+          background-color: $color-concrete;
+          color: $color-gray;
+        }
+      }
+    }
+
+    .fa {
+      display: inline-block;
+      margin-right: 10px;
+      text-align: right;
+      width: 25px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@import 'bourbon';
+
+/*
+ * Font stacks
+ * Use the font stacks from bourbon for all default fonts
+ * http://bourbon.io/docs/#font-family
+ */
+$font-serif                    : $georgia;
+$font-sans-serif               : $helvetica;
+$font-monospace                : $monospace;
+$font-open-sans               : 'Open Sans', sans-serif;
+
+/*
+ * Color settings
+ *
+ * How to use color variables:
+ * http://davidwalsh.name/sass-color-variables-dont-suck
+ * http://chir.ag/projects/name-that-color/
+ */
+$color-white                   : #ffffff;
+$color-concrete                : #f2f2f2;
+$color-alto                    : #d5d5d5;
+$color-gray                    : #7f7f7f;
+$color-tundora                 : #4c4c4c;
+$color-black                   : #000000;
+$color-red                     : #ff0600;
+$color-gold                    : #f5d200;
+
+/*
+ * Define own lia base styles
+ */
+$base-font-size                : 14px;
+$base-line-height              : 1.5;
+$base-font-family              : $font-open-sans;
+
+$base-background-color         : $color-white;
+$base-font-color               : $color-tundora;
+$base-link-color               : $color-tundora;
+
+$base-font-size-h1             : 50px;
+$base-font-size-h2             : 24px;
+$base-font-size-h3             : 20px;
+$base-font-size-h4             : 18px;
+

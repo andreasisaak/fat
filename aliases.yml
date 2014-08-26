@@ -1,0 +1,90 @@
+aliases:
+  - icon:       cog
+    aliases:
+      - system
+      - configuration
+
+  - icon:       cogs
+    aliases:
+      - settings
+
+  - icon:       envelope
+    aliases:
+      - email
+
+  - icon:       chevron-down
+    aliases:
+      - arrow-bottom
+
+  - icon:       chevron-up
+    aliases:
+      - arrow-top
+
+  - icon:       chevron-right
+    aliases:
+      - arrow-right
+
+  - icon:       chevron-left
+    aliases:
+      - arrow-left
+
+  - icon:       calendar
+    aliases:
+      - date
+
+  - icon:       clock-o
+    aliases:
+      - time
+
+  - icon:       times
+    aliases:
+      - cross
+
+  - icon:       exclamation-triangle
+    aliases:
+      - error
+
+  - icon:       home
+    aliases:
+      - house
+
+  - icon:       frown-o
+    aliases:
+      - smiley
+
+  - icon:       meh-o
+    aliases:
+      - smiley
+
+  - icon:       search
+    aliases:
+      - magnifying-glass
+
+  - icon:       pencil
+    aliases:
+      - edit
+
+  - icon:       briefcase
+    aliases:
+      - bag
+
+  - icon:       desktop
+    aliases:
+      - monitor
+
+  - icon:       mobile
+    aliases:
+      - smartphone
+
+  - icon:       signal
+    aliases:
+      - wifi
+
+  - icon:       archive
+    aliases:
+      - box
+
+  - icon:       trash-o
+    aliases:
+      - delete
+      - garbage
