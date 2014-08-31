@@ -39,6 +39,7 @@ aliases:
   - icon:       times
     aliases:
       - cross
+      - close
 
   - icon:       exclamation-triangle
     aliases:
